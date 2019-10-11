@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  -webkit-box-shadow: 0px 10px 25px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 25px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 25px -1px rgba(0,0,0,0.75);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(221, 131, 146);
+  }
+
+h1 {
+  text-align: center;
+}
+
+body > section:nth-child(odd) {
+  background-color: #ddd;
+}
+
+body > section {
+  min-height: 250px;
+  padding: 40px;
+}
